@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "incremental": true,
+    "paths": {
+			"@/*": ["*"],
+			"@controllers/*": ["controllers/*"],
+			"@dtoes/*": ["dtoes/*"],
+			"@models/*": ["models/*"],
+			"@modules/*": ["modules/*"],
+			"@services/*": ["services/*"],
+			"@databases/*": ["database/*"],
+			"@decorators/*": ["decorators/*"],
+			"@interfaces/*": ["interfaces/*"]
+		},
+  },
+  "exclude": ["node_modules", "dist"]
+}
